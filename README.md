@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Shurnastya.github.io/rsschool-cv/cv
