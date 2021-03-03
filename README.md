@@ -1,1 +1,1 @@
-https://Shurnastya.github.io/rsschool-cv/cv
+https://Shurnastya.github.io/rsschool-cv/
