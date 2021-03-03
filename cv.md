@@ -18,7 +18,8 @@
 1 year</li>
 <li>Sales consultant of the company Redmond - 2 year</li>
 <li>Company Marketing Specialist SebGroup - with June 2019г. 
-to the present time</li></ul>
+to the present time</li></ul> 
+
 4.
 5.
 6.
