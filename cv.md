@@ -22,3 +22,5 @@ to the present time</li></ul>
 4.
 5.
 6.
+7. *Education: secondary specialized*
+8. *English level:А2*
