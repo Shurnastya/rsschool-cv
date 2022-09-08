@@ -52,3 +52,28 @@ JS and ReactJS logic was more difficult, but I've learned to understand and I ca
 * https://github.com/Shurnastya/HTML-CSS  
 
 ***
+
+### Code example: ###  
+
+In the world, an array of days of the week (Mon, Tue, Wed, etc.). Use the for loop to output all
+print days of the week, weekends in bold.  
+
+```
+let arr5 = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri','Sat', 'Sun'];
+ 
+for (let i = 0; i < arr5.length; i++) {
+    if (arr5[i] == 'Sat' || arr5[i] == 'Sun') {
+        document.write('<b>' + arr5[i] + '<b>' + ' ');
+    } else {
+        document.write(arr5[i] + ' ');
+    }
+ 
+};
+```
+
+***
+
+### Languages: ###
+* **Belarusian:** Native 
+* **English:** Elementary 
+* **Russian:** Proficiency
