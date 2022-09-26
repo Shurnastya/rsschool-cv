@@ -1,1 +1,1 @@
-https://Shurnastya.github.io/rsschool-cv/online-zoo/assets/
+https://Shurnastya.github.io/rsschool-cv/assets/
