@@ -1,1 +1,1 @@
-https://Shurnastya.github.io/rsschool-cv/assets
+# shurnastya-JavaScript/Front-end 2022Q3
