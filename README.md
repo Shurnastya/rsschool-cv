@@ -1,1 +1,1 @@
-https://Shurnastya.github.io/assets
+https://Shurnastya.github.io/rsschool-cv/assets
