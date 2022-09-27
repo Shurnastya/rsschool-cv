@@ -732,6 +732,10 @@ html, body {
     width: 45%;
 }
 
+.footer a:hover {
+    color: #FE9013;
+}
+
 .social {
     display: flex;
     flex-direction: column;
@@ -749,6 +753,7 @@ html, body {
     border-radius: 5px;
     margin-bottom: 45px;
     cursor: pointer;
+    border: none;
 }
 
 .donate:hover {
@@ -915,7 +920,7 @@ html, body {
 }
 
 .submit:hover a {
-    color: #F1F3F2;
+    color: #4B9200;
 }
 
 .desing p {
