@@ -287,6 +287,7 @@ html, body {
 
 .input-number:focus {
     outline: none;
+    border: 1px solid #4B9200;
 }
 
 .input-container {
@@ -356,7 +357,7 @@ html, body {
     display: block;
     width: 12px;
     height: 12px;
-    background-color: rgba(254, 144, 19, 1);
+    background-color: #4B9200;
     opacity: 0;
     border-radius: 50%;
     position: absolute;
@@ -366,7 +367,7 @@ html, body {
 }
 
 .radio-input:checked + .radio-label::before {
-    border: 1px solid rgba(254, 144, 19, 1);
+    border: 1px solid #4B9200;
 }
 
 .radio-input:checked + .radio-label::after {
@@ -417,6 +418,10 @@ html, body {
 
 .footer .nav {
     width: 45%;
+}
+
+.footer a:hover {
+    color: #FE9013;
 }
 
 .social {
@@ -579,6 +584,7 @@ html, body {
 
 .input-email:focus {
     outline: none;
+    border: 1px solid #4B9200;
 }
 
 .submit {
@@ -603,7 +609,7 @@ html, body {
 }
 
 .submit:hover a {
-    color: #F1F3F2;
+    color: #4B9200;
 }
 
 .desing p {
@@ -613,7 +619,7 @@ html, body {
     color: #FFFFFF;
 }
 
-.desing p:hover {
+.desing:hover p{
     border-bottom: 1px solid #4B9200;
     color: #4B9200;
 }

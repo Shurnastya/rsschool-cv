@@ -896,6 +896,7 @@ html, body {
 
 .input-email:focus {
     outline: none;
+    border: 1px solid #4B9200;
 }
 
 .submit {
