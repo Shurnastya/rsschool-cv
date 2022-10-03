@@ -29,21 +29,34 @@ html, body {
 }
 
 .logo-list h1 {
-    color: white;
-    text-align: center;
     border: 1px solid white;
     border-radius: 2px;
     width: 65%;
+    position: relative;
+    text-align: center;
+    line-height: 60%;
 }
 
 .header .logo-list a {
     font-weight: 400;
     font-size: 18px;
-    letter-spacing: 0px;
+    text-decoration: none;
+    color: white;
 }
 
 .header .logo-list a:hover {
     color: white;
+}
+
+.bamboo {
+    display: block;
+    background-image: url(../../icons/bamboo.svg);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 21px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
 }
 
 .nav {
@@ -74,7 +87,7 @@ html, body {
     position: relative;
 }
 
-.header a {
+.header .figma {
     font-weight: 500;
     font-size: 16px;
     color: #FFFFFF;
@@ -84,12 +97,132 @@ html, body {
     transition: 0.3s;
 }
 
-.header a:hover {
+.header .figma:hover {
     color: #FE9013;
 }
 
 .nav .active {
     color: #FE9013;
+}
+
+/* BURGER MENU */
+.hidden-menu {
+    display: none;
+    width: 50px;
+    height: 30px;
+    z-index: 4;
+    right: 20px;
+    top: 30px;
+    position: fixed;
+}
+
+.hidden-menu input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 5;
+}
+
+.hidden-menu .line {
+    background: white;
+    display: block;
+    width: 90%;
+    height: 4px;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.hidden-menu .line:not(:last-child) {  
+    margin-bottom: 6px;
+}
+.hidden-menu input:checked ~ span {   
+    background-color: #111115;
+    opacity: 1;
+    transform: translateY(10px) translateX(0) rotate(45deg);
+}
+
+.hidden-menu input:checked ~ span:nth-last-child(3) {
+    opacity: 0; 
+}
+
+.hidden-menu input:checked ~ span:nth-last-child(2) {
+    transform: translateY(-10px) translateX(0) rotate(-45deg);
+}
+
+.header__toggle-menu {
+    height: 40px;
+    width: 40px;
+    top: 0;
+    background: #ffffff;
+    z-index: -1;
+    overflow: hidden;
+    position: fixed;
+    opacity: 0;
+}
+
+.hidden-menu input:checked ~ .header__toggle-menu {
+    opacity: 1;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-toggle .logo-list {
+    padding: 15px 15px 40px 15px;
+}
+
+.nav-toggle .logo-list h1 {
+    border: 1px solid #FE9013;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+    line-height: 65%;
+    width: 80px;
+    padding: 5px;
+}
+
+.nav-toggle .logo-list a {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FE9013;
+}
+
+.nav-toggle .active {
+    color: #FE9013;
+}
+
+.bamboo-1 {
+    display: block;
+    background-image: url(../../icons/bamboo1.svg);
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 21px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.header__toggle-menu ul li {
+    padding-left: 2%;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.header__toggle-menu li a{
+    color: #333B41;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hidden-menu li a:hover {
+    color: #F9804B;
 }
 
 /*  Block panda */
@@ -120,7 +253,7 @@ html, body {
     top: 86px;
 }
 
-.panda h1 span {
+.panda h2 span {
     color: rgba(255, 238, 46, 1);
 }
 
@@ -193,6 +326,10 @@ html, body {
 .flower {
     position: absolute;
     right: 0px;
+}
+
+.flower-mob {
+    display: none;
 }
 
 .wilderness-world .bamboo-cap {
@@ -432,7 +569,7 @@ html, body {
     margin-bottom: 10px;
 }
 
-.friend p {
+.friend h6 {
     font-weight: 400;
     font-size: 16px;
     color: #333B41;
@@ -440,14 +577,14 @@ html, body {
     margin-bottom: 60px;
 }
 
-.friend p a {
+.friend h6 a {
     color: #333B41;
     text-decoration: none;
     border-bottom: 1px solid #FE9013;
     cursor: pointer;
 }
 
-.friend p a:hover {
+.friend h6 a:hover {
     color: #FE9013;
 }
 
@@ -495,6 +632,14 @@ html, body {
     width: 70px;
     height: 37px;
     margin-right: 30px;
+}
+
+.arrow-green {
+    display: none;
+    background-image: url(../../icons/arrow-green.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 70px;
 }
 
 .pay-wrapper p {
@@ -644,6 +789,10 @@ html, body {
     transition: width .4s ease-in-out;
 }
 
+.animal-alligator {
+    display: none;
+}
+
 .icon1 {
     display: block;
     background-image: url(../../icons/user1.svg);
@@ -739,6 +888,10 @@ html, body {
 .social {
     display: flex;
     flex-direction: column;
+}
+
+.logo-list-1 {
+    display: none;
 }
 
 .logo-footer {

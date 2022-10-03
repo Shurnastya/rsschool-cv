@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Online-zoo</title>
 
 </head>
@@ -17,10 +18,13 @@
 
         <header class="header" id="top">
             <div class="wrapper">
+                <div class="logo-list">
+                    <h1>
+                        <a href="../main/index.html">PetStory online</a>
+                        <span class="bamboo"></span>
+                    </h1>
+                </div>
                 <nav class="nav">
-                    <div class="logo-list">
-                        <h1><a href="../main/index.html">PetStory online</a></h1>
-                    </div>
                     <ul>
                         <li><a href="../main/index.html" class="active">About</a></li>
                         <li><a href="#">Map</a></li>
@@ -29,9 +33,37 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a>
+                <a class="figma" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a>
             </div>
+           
         </header>
+
+        <!-- Burger menu -->
+        <div class="hidden-menu">
+            <input type="checkbox">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            
+            <div class="header__toggle-menu" >
+                <nav class="nav-toggle">
+                    <div class="logo-list">
+                        <h1>
+                            <a href="../main/index.html">PetStory online</a>
+                            <span class="bamboo-1"></span>
+                        </h1>
+                    </div>
+                    <ul>
+                        <li><a href="../main/index.html" class="active">About</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Zoos</a></li>
+                        <li><a href="../donate/index.html">Donate</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#"><a class="figma" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a></a></li>
+                    </ul>
+                </nav>
+            </div>                
+        </div>
 
         <section class="panda">
             <div class="wrapper">
@@ -51,6 +83,7 @@
                     <p>The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
                 </div>
                 <img class="flower" src="../../images/flower.png" alt="Flower">
+                <img class="flower-mob" src="../../images/flower_foto1.png" alt="Flower">
             </div>
         </section>
 
@@ -61,7 +94,7 @@
                         <div class="animals-card">
                             <div class="animal-wrapper">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle 1.png" alt="panda">
+                                    <img src="../../images/Rectangle 1.png" alt="panda">
                                 </div>
                                 <div class="hidden">
                                     <h2>giant Pandas</h2>
@@ -71,7 +104,7 @@
                             </div>
                             <div class="animal-wrapper">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle2.png" alt="eagle">
+                                    <img src="../../images/Rectangle2.png" alt="eagle">
                                 </div>
                                 <div class="hidden">
                                     <h2>Eagles</h2>
@@ -81,7 +114,7 @@
                             </div>
                             <div class="animal-wrapper">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle 3.png" alt="gorilla">
+                                    <img src="../../images/Rectangle 3.png" alt="gorilla">
                                 </div>
                                 <div class="hidden">
                                     <h2>Gorillas</h2>
@@ -89,9 +122,9 @@
                                     <span class="icon-banan"></span>
                                 </div>
                             </div>
-                            <div class="animal-wrapper">
+                            <div class="animal-wrapper animal-sloth">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle 4.png" alt="sloth">
+                                    <img src="../../images/Rectangle 4.png" alt="sloth">
                                 </div>
                                 <div class="hidden">
                                     <h2>Two-toed Sloth</h2>
@@ -99,9 +132,9 @@
                                     <span class="icon-banan"></span>
                                 </div>
                             </div>
-                            <div class="animal-wrapper">
+                            <div class="animal-wrapper animal-leopard">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle 5.png" alt="leopard">
+                                    <img src="../../images/Rectangle 5.png" alt="leopard">
                                 </div>
                                 <div class="hidden">
                                     <h2>cheetahs</h2>
@@ -109,13 +142,24 @@
                                     <span class="icon-fish"></span>
                                 </div>
                             </div>
-                            <div class="animal-wrapper">
+                            <div class="animal-wrapper animal-penguin">
                                 <div class="block-img">
-                                    <img class="" src="../../images/Rectangle 6.png" alt="penguin">
+                                    <img src="../../images/Rectangle 6.png" alt="penguin">
                                 </div>
                                 <div class="hidden">
                                     <h2>Penguins</h2>
                                     <p>Native to Antarctica</p>
+                                    <span class="icon-fish"></span>
+                                </div>
+                            </div>
+
+                            <div class="animal-wrapper animal-alligator">
+                                <div class="block-img">
+                                    <img src="../../images/Alligator.png" alt="alligator">
+                                </div>
+                                <div class="hidden">
+                                    <h2>Alligators</h2>
+                                    <p>Native to Southeastern United States</p>
                                     <span class="icon-fish"></span>
                                 </div>
                             </div>
@@ -136,7 +180,7 @@
                     <h2>Pick and feed a friend</h2>
                     <h3>We know the animals bring you joy, and in these extraordinary times, we’re glad.</h3>
                     <h4>During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</h4>
-                    <p>Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a href="../donate/index.html">Emergency Support Fund.</a></p>
+                    <h6>Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a href="../donate/index.html">Emergency Support Fund.</a></h6>
                     <h5>How it works</h5>
                     <div class="frend-wrapper">
                         <div class="pay-wrapper">
@@ -145,6 +189,7 @@
                                     <span class="icon-pay-1"></span>
                                 </div>
                                 <span class="arrow-pay"></span>
+                                <span class="arrow-green"></span>
                             </div>
                             <p>Pay with card</p>
                         </div>
@@ -154,6 +199,7 @@
                                     <span class="icon-pay-2"></span>
                                 </div>
                                 <span class="arrow-pay"></span>
+                                <span class="arrow-green"></span>
                             </div>
                             <p>Payment goes to the zoo</p>
                         </div>
@@ -177,7 +223,7 @@
             <div class="wrapper">
                 <h2>Testimonials</h2>
                 <div class="testimonials-wrapper">
-                    <div class="testimonials-block">
+                    <div class="testimonials-block block-1">
                         <div class="testimonials-info">
                             <span class="icon1"></span>
                             <div class="user">
@@ -189,7 +235,7 @@
                         <p>The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>
                         
                     </div>
-                    <div class="testimonials-block">
+                    <div class="testimonials-block block-2">
                         <div class="testimonials-info">
                             <span class="icon2"></span>
                             <div class="user">
@@ -199,7 +245,7 @@
                         </div>
                         <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>
                     </div>
-                    <div class="testimonials-block">
+                    <div class="testimonials-block block-3">
                         <div class="testimonials-info">
                             <span class="icon3"></span>
                             <div class="user">
@@ -209,7 +255,7 @@
                         </div>
                         <p>The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I've met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>
                     </div>
-                    <div class="testimonials-block">
+                    <div class="testimonials-block block-4">
                         <div class="testimonials-info">
                             <span class="icon4"></span>
                             <div class="user">
@@ -234,6 +280,12 @@
             <div class="wrapper">
                 <div class="footer-block1">
                     <a href="#top" class="logo-footer"><img src="../../images/logo.png" alt="Logo"></a>
+                    <div class="logo-list-1">
+                        <h1>
+                            <a href="../main/index.html">PetStory online</a>
+                            <span class="bamboo-footer"></span>
+                        </h1>
+                    </div>
                     <button class="donate"><a href="../donate/index.html">donate for volunteers</a></button>
                     <div class="social">
                         <div class="social-wrapper">
