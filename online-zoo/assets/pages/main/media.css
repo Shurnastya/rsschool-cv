@@ -1,0 +1,612 @@
+@media (max-width: 1599px) {
+
+    .bamboo-cap {
+        width: 455px;
+        height: 408px;
+    }
+
+    .info {
+        width: 454px;
+    }
+
+    .block-img img {
+        width: 294px;
+        height: 294px;
+    }
+
+    .footer .wrapper {
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .footer .nav {
+        position: absolute;
+        bottom: 0;
+        right: 35%;
+    }
+}
+
+@media (max-width: 1385px) {
+    .flower {
+        display: none;
+    }
+
+    .palm {
+        width: 150px;
+    }
+
+    .flower-2 {
+        width: 250px;
+    }
+
+    .block-4 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .nav ul {
+        width: 100%;
+    }
+
+    .block-img img {
+        width: 265px;
+        height: 265px;
+    }
+
+    .bamboo-cap {
+        margin-right: 5%;
+        width: 385px;
+        height: 295px;
+    }
+
+    .animals-card {
+        grid-gap: 100px 30px;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 39%;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 39%;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 4;
+    }
+
+    .header .wrapper {
+        justify-content: flex-start;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header .figma {
+        display: none;
+    }
+
+    .hidden-menu {
+        display: block;
+    }
+
+    .wrapper {
+        width: 95%;
+    }
+
+    .panda {
+        background-attachment: inherit;
+        height: 400px;
+        margin-bottom: 60px;
+    }
+
+    .panda h2 {
+        font-size: 55px;
+        width: 255px;
+        top: 136px;
+    }
+
+    .panda img {
+        top: 80px;
+        right: 10%;
+        width: 255px;
+    }
+
+    .online {
+        top: 315px;
+        left: 20px;
+    }
+
+    .wilderness-world .wrapper {
+        justify-content: inherit;
+    }
+
+    .wilderness-world {
+        margin-bottom: 80px;
+    }
+
+    .bamboo-cap {
+        display: none;
+    }
+
+    .flower {
+        display: block;
+        width: 155px;
+    }
+
+    .info {
+        width: 495px;
+    }
+
+    .animals-card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 90px 30px;
+    }
+
+    .block-img img {
+        width: 286px;
+        height: 286px;
+    }
+
+    .block-img {
+        width: 99%;
+        height: 99%;
+    }
+
+    .hidden h2 {
+        font-size: 13px;
+    }
+
+    .hidden p {
+        font-size: 11px;
+    }
+
+    .icon-banan {
+        bottom: 7px;
+    }
+
+    .icon-fish {
+        bottom: 7px;
+    }
+
+    .animal-wrapper:hover .hidden {
+        width: 99%;
+    }
+
+    .animal-alligator {
+        display: block;
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: 37%;
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: 37%;
+    }
+
+    .animal-sloth {
+        display: none;
+    }
+
+    .animal-leopard {
+        display: none;
+    }
+
+    .animal-penguin {
+        display: none;
+    }
+
+    .aminals-block {
+        margin-bottom: 70px;
+    }
+
+    .flower-2 {
+        width: 200px;
+    }
+
+    .palm {
+        width: 130px;
+    }
+
+    .friend {
+        padding: 0px 20px;
+    }
+
+    .friend h2 {
+        font-size: 42px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .friend h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .friend h6 {
+        margin-bottom: 30px;
+    }
+
+    .friend h5 {
+        margin-bottom: 20px;
+    }
+
+    .arrow-pay {
+        display: none;
+    }
+
+    .pay-wrapper {
+        position: relative;
+    }
+
+    .arrow-green {
+        display: block;
+        position: absolute;
+        top: -17px;
+        right: -33px;
+        z-index: 1;
+    }
+
+    .testimonials .wrapper {
+        text-align: center;
+    }
+
+    .testimonials h2 {
+        margin-top: 60px;
+    }
+
+    .testimonials-wrapper {
+        display: block;
+    }
+
+    .user h3 {
+        text-align: initial;
+    }
+
+    .testimonials-block p {
+        text-align: initial;
+    }
+
+    .testimonials-block {
+        width: 100%;
+        height: 110.5px;
+        margin-bottom: 15px;
+    }
+
+    .wrapper__progress-bar {
+        display: none;
+    }
+
+    .feedback {
+        margin-top: 25px;
+        margin-bottom: 95px;
+    }
+
+    .flower-3 {
+        bottom: -8%;
+        width: 125px;
+    }
+
+    .footer {
+        padding-bottom: 15px;
+    }
+
+    .logo-footer {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .social {
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+
+    .facebook-text {
+        display: none;
+    }
+
+    .twitter-text {
+        display: none;
+    }
+
+    .instagram-text {
+        display: none;
+    }
+
+    .youtube-text {
+        display: none;
+    }
+
+    .facebook {
+        margin-bottom: 20px;
+    }
+
+    .twitter {
+        margin-bottom: 20px;
+    }
+
+    .instagram {
+        margin-bottom: 20px;
+    }
+
+    .youtube {
+        margin-bottom: 20px;
+    }
+
+    .donate {
+        margin-bottom: 100px;
+    }
+
+    .footer .nav {
+        left: 0;
+    }
+
+    .input-container {
+        display: none;
+    }
+
+    .footer-block2 {
+        justify-content: end;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .header .wrapper {
+        padding: 5px 0px;
+    }
+
+    .hidden-menu {
+        top: 18px;
+        right: 20px;
+    }
+
+    .panda {
+        height: 187px;
+        margin-bottom: 60px;
+    }
+
+    .panda img {
+        width: 120px;
+        height: 120px;
+        top: 62px;
+    }
+
+    .panda h2 {
+        font-size: 28px;
+        width: 130px;
+        top: 68px;
+    }
+
+    .online {
+        left: 0;
+        right: 0;
+        top: 197px;
+        margin: 0 auto;
+    }
+
+    .wilderness-world h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .wilderness-world {
+        position: relative;
+    }
+
+    .flower {
+        display: none;
+    }
+
+    .flower-mob {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .wilderness-world h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .wilderness-world {
+        margin-bottom: 40px;
+    }
+
+    .arrow-left {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .animals-card {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    .aminals-block {
+        margin-bottom: 20px;
+    }
+
+    .favorite {
+        margin-bottom: 60px;
+    }
+
+    .palm {
+        width: 40px;
+    }
+
+    .flower-2 {
+        width: 95px;
+    }
+
+    .friend-block h4 {
+        display: none;
+    }
+
+    .friend h6 {
+        display: none;
+    }
+
+    .pay-wrapper p {
+        text-align: start;
+    }
+
+    .friend {
+        padding: 0px 5px;
+        text-align: center;
+    }
+
+    .friend h2 {
+        font-size: 24px;
+    }
+
+    .friend h3 {
+        font-size: 18px;
+    }
+
+    .friend h5 {
+        font-size: 24px;
+    }
+
+    .frend-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .block-pay {
+        margin-right: 0;
+    }
+
+    .pay-wrapper {
+        margin-bottom: 80px;
+    }
+
+    .arrow-wrapper {
+        margin-bottom: 15px;
+    }
+
+    .favorite-now {
+        margin-bottom: 40px;
+    }
+
+    .arrow-green {
+        transform: rotate(90deg);
+        top: 180px;
+        right: -45px;
+    }
+
+    .flower-3 {
+        width: 90px;
+    }
+
+    .footer .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .footer-block1 img {
+        display: none;
+    }
+
+    .logo-list-1 {
+        display: block;
+        margin-bottom: 85px;
+        position: relative;
+    }
+
+    .logo-list-1 h1 {
+        text-align: center;
+    }
+
+    .logo-list-1 a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .bamboo-footer {
+        display: block;
+        background-image: url(../../icons/bamboo.svg);
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 21px;
+        position: absolute;
+        bottom: 0;
+        left: 54%;
+    }
+
+    .social {
+        right: 0;
+        left: 0;
+        top: 23%;
+        flex-direction: initial;
+        justify-content: center;
+    }
+
+    .donate {
+        margin-bottom: 30px;
+    }
+
+    .desing {
+        margin-bottom: 50px;
+    }
+
+    .footer .nav {
+        display: block;
+        width: 100%;
+    }
+
+    .facebook {
+        margin-right: 30px;
+    }
+
+    .twitter {
+        margin-right: 30px;
+    }
+
+    .instagram {
+        margin-right: 30px;
+    }
+
+    .youtube {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+    .info {
+        width: 95%;
+    }
+
+}
