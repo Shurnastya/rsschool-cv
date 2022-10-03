@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="style/media.css"> -->
+    <link rel="stylesheet" href="media.css">
     <title>Online-zoo</title>
 
 </head>
@@ -18,10 +18,13 @@
 
         <header class="header" id="top">
             <div class="wrapper">
+                <div class="logo-list">
+                    <h1>
+                        <a href="../main/index.html">PetStory online</a>
+                        <span class="bamboo"></span>
+                    </h1>
+                </div>
                 <nav class="nav">
-                    <div class="logo-list">
-                        <h1><a href="../main/index.html">PetStory online</a></h1>
-                    </div>
                     <ul>
                         <li><a href="../main/index.html">About</a></li>
                         <li><a href="#">Map</a></li>
@@ -30,9 +33,37 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a>
+                <a class="figma" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a>
             </div>
+
         </header>
+
+        <!-- Burger menu -->
+        <div class="hidden-menu">
+            <input type="checkbox">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+                        
+            <div class="header__toggle-menu" >
+                <nav class="nav-toggle">
+                    <div class="logo-list">
+                        <h1>
+                            <a href="../main/index.html">PetStory online</a>
+                            <span class="bamboo-1"></span>
+                        </h1>
+                    </div>
+                    <ul>
+                        <li><a href="../main/index.html">About</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Zoos</a></li>
+                        <li><a href="../donate/index.html" class="active">Donate</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#"><a class="figma" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by &copy</a></a></li>
+                    </ul>
+                </nav>
+                </div>                
+        </div>
 
         <section class="panda"></section>
 
@@ -54,18 +85,41 @@
                     </div>
                     <p>Amount</p>
                         <div class="slidecontainer">
-                            <input type="range" min="1" max="100" value="34" class="slider" id="myRange">
+                            <div class="slider"></div>
+                            <div class="price donate-1">
+                                <input type="radio" name="price" class="price-input" id="price-1">
+                                <label class="price-label" for="price-1">$5000</label>
+                                <span></span>
+                            </div>
+                            <div class="price donate-2">
+                                <input type="radio" name="price" class="price-input" id="price-2">
+                                <label class="price-label" for="price-2">$2000</label>
+                            </div>
+                            <div class="price donate-3">
+                                <input type="radio" name="price" class="price-input" id="price-3" checked="checked">
+                                <label class="price-label" for="price-3">$1000</label>
+                            </div>
+                            <div class="price donate-4">
+                                <input type="radio" name="price" class="price-input" id="price-4">
+                                <label class="price-label" for="price-4">$500</label>
+                            </div>
+                            <div class="price donate-5">
+                                <input type="radio" name="price" class="price-input" id="price-5">
+                                <label class="price-label" for="price-5">$250</label>
+                            </div>
+                            <div class="price donate-6">
+                                <input type="radio" name="price" class="price-input" id="price-6">
+                                <label class="price-label" for="price-6">$100</label>
+                            </div>
+                            <div class="price donate-7">
+                                <input type="radio" name="price" class="price-input" id="price-7">
+                                <label class="price-label" for="price-7">$50</label>
+                            </div>
+                            <div class="price donate-8">
+                                <input type="radio" name="price" class="price-input" id="price-8">
+                                <label class="price-label" for="price-8">$25</label>
+                            </div>
                         </div>
-                    <div class="price">
-                        <h4>$5000</h4>
-                        <h4>$2000</h4>
-                        <h4>$1000</h4>
-                        <h4>$500</h4>
-                        <h4>$250</h4>
-                        <h4>$100</h4>
-                        <h4>$50</h4>
-                        <h4>$25</h4>
-                    </div>
                     <div class="wrapper-bottom">
                         <form class="input-container">
                             <input type="number" class="input-number" max="4" placeholder="Another amount"><span class="dollar"></span>
@@ -89,6 +143,12 @@
             <div class="wrapper">
                 <div class="footer-block1">
                     <a href="#top" class="logo-footer"><img src="../../images/logo.png" alt="Logo"></a>
+                    <div class="logo-list-1">
+                        <h1>
+                            <a href="../main/index.html">PetStory online</a>
+                            <span class="bamboo-footer"></span>
+                        </h1>
+                    </div>
                     <button class="donate"><a href="../donate/index.html">donate for volunteers</a></button>
                     <div class="social">
                         <div class="social-wrapper">
