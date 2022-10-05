@@ -57,58 +57,189 @@
     }
 
     .bamboo-cap {
-        margin-right: 5%;
-        width: 400px;
+        margin-right: 3%;
+        width: 455px;
         height: 408px;
         object-fit: cover;
     }
 
+    .wilderness-world h2 {
+        margin-bottom: 17px;
+    }
+
+    .wilderness-world p {
+        width: 97%;
+    }
+
+    .wilderness-world h3 {
+        margin-bottom: 38px;
+    }
+
+    .wilderness-world {
+        margin-bottom: 146px;
+    }
+
     .animals-card {
-        grid-gap: 100px 30px;
+        grid-gap: 147px 30px;
     }
 
     .arrow-left {
         position: absolute;
-        left: 39%;
+        left: 35%;
+        top: 34%;
     }
 
     .arrow-right {
         position: absolute;
-        right: 39%;
+        right: 35%;
+        top: 34%;
+    }
+
+    .aminals-block {
+        margin-bottom: 138px;
+    }
+
+    .favorite {
+        margin-bottom: 143px;
     }
 
     .wrapper {
-        width: 90%;
+        width: 94%;
+    }
+
+    .header .wrapper {
+        justify-content: left;
+    }
+
+    .logo-list h1 {
+        margin-right: 40px;
+    }
+
+    .header .figma {
+        margin-left: 225px;
     }
 
     .panda {
         background-attachment: initial;
-        background-size: contain;
-        height: 585px;
-        margin-bottom: 0px;
+        background-size: cover;
+        height: 505px;
+        margin-bottom: 102px;
     }
 
     .panda img {
         position: absolute;
-        right: 11%;
+        right: 16%;
         top: 0px;
         width: 367px;
     }
 
     .panda h2 {
-        right: -2%;
-        top: 54px;
+        right: 0%;
+        top: 47px;
         font-size: 85px;
     }
 
     .online {
-        right: 9%;
-        top: 400px;
+        right: 11.5%;
+        top: 405px;
         cursor: pointer;
     }
 
     .info {
         width: 100%;
+    }
+
+    .friend-block {
+        padding-top: 30px;
+    }
+
+    .friend h2 {
+        padding-top: 30px;
+        margin-bottom: 18px;
+    }
+
+    .friend {
+        padding: 0px 48px;
+    }
+
+    .friend h3 {
+        font-size: 23px;
+        margin-bottom: 23px;
+    }
+
+    .friend h4 {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+
+    .friend h6 {
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 47px;
+    }
+
+    .frend-wrapper {
+        margin-bottom: 114px;
+    }
+
+    .testimonials h2 {
+        margin-top: 45px;
+        margin-bottom: 29px;
+    }
+
+    .testimonials-block {
+        width: 290px;
+        padding: 10px;
+    }
+
+    .progress-bar {
+        width: 43%;
+    }
+
+    .wrapper__progress-bar {
+        margin-bottom: 20px;
+    }
+
+    .flower-3 {
+        width: 204px;
+    }
+
+    .feedback {
+        margin-bottom: 142px;
+    }
+
+    .footer .wrapper {
+        width: 91%;
+    }
+
+    .logo-footer {
+        margin-bottom: 65px;
+    }
+
+    .footer .nav {
+        position: absolute;
+        bottom: 3px;
+        right: 30%;
+        width: 40%;
+    }
+
+    .input-email {
+        width: 227px;
+        margin-right: 10px;
+    }
+
+    .submit {
+        width: 131px;
+    }
+
+    .desing {
+        position: absolute;
+        bottom: 0;
+        right: -32px;
+    }
+
+    .desing p {
+        margin-bottom: 4px;
     }
 
 }
@@ -119,6 +250,31 @@
         position: fixed;
         width: 100%;
         z-index: 4;
+        height: 33px;
+    }
+
+    .logo-list h1 {
+        width: 54px;
+        line-height: 30%;
+    }
+
+    .logo-list {
+        position: absolute;
+    }
+
+    .header .logo-list a {
+        font-size: 13px;
+    }
+
+    .bamboo {
+        bottom: -4px;
+        left: 14%;
+    }
+
+    .panda img {
+        top: 44px;
+        right: 9%;
+        width: 237px;
     }
 
     .header .wrapper {
@@ -144,30 +300,36 @@
     .panda {
         background-attachment: inherit;
         background-size: cover;
-        height: 400px;
+        height: 373px;
         margin-bottom: 60px;
     }
 
     .panda h2 {
-        font-size: 55px;
+        font-size: 54px;
         width: 255px;
-        top: 136px;
-        right: 3%;
-    }
-
-    .panda img {
-        top: 80px;
-        right: 9%;
-        width: 255px;
+        top: 84px;
+        right: 0px;
+        letter-spacing: 0;
     }
 
     .online {
-        top: 315px;
-        left: 20px;
+        top: 280px;
+        left: 6px;
     }
 
     .wilderness-world .wrapper {
         justify-content: inherit;
+        width: 93%;
+        position: relative;
+    }
+
+    .wilderness-world h2 {
+        margin-bottom: 23px;
+    }
+
+    .wilderness-world h3 {
+        margin-top: 29px;
+        margin-bottom: 21px;
     }
 
     .wilderness-world {
@@ -179,8 +341,14 @@
     }
 
     .flower {
+        top: -62px;
         display: block;
         width: 155px;
+        right: -21px;
+    }
+
+    .animal-wrapper .hidden {
+        bottom: -18%;
     }
 
     .info {
@@ -189,7 +357,7 @@
 
     .animals-card {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 90px 30px;
+        grid-gap: 139px 30px;
     }
 
     .block-img img {
@@ -228,12 +396,14 @@
 
     .arrow-left {
         position: absolute;
-        left: 37%;
+        left: 38%;
+        top: 35%;
     }
 
     .arrow-right {
         position: absolute;
-        right: 37%;
+        right: 38%;
+        top: 35%;
     }
 
     .animal-sloth {
@@ -249,11 +419,15 @@
     }
 
     .aminals-block {
-        margin-bottom: 70px;
+        margin-bottom: 106px;
+    }
+
+    .favorite {
+        margin-bottom: 101px;
     }
 
     .flower-2 {
-        width: 200px;
+        width: 181px;
     }
 
     .palm {
@@ -261,13 +435,18 @@
     }
 
     .friend {
-        padding: 0px 20px;
+        padding: 0px;
     }
 
     .friend h2 {
         font-size: 42px;
-        padding-top: 10px;
-        margin-bottom: 20px;
+        padding-top: 0px;
+        margin-bottom: 17px;
+    }
+
+    .friend h4 {
+        font-size: 16px;
+        margin-bottom: 16px;
     }
 
     .friend h3 {
@@ -276,7 +455,17 @@
     }
 
     .friend h6 {
-        margin-bottom: 30px;
+        font-size: 16px;
+        margin-bottom: 34px;
+    }
+
+    .frend-wrapper {
+        justify-content: space-evenly;
+        margin-bottom: 87px;
+    }
+
+    .friend-block {
+        padding-bottom: 22px;
     }
 
     .friend h5 {
@@ -330,13 +519,18 @@
     }
 
     .feedback {
-        margin-top: 25px;
-        margin-bottom: 95px;
+        margin-top: 19px;
+        margin-bottom: 80px;
+        width: 242px;
     }
 
     .flower-3 {
         bottom: -8%;
-        width: 125px;
+        width: 110px;
+    }
+
+    .footer .wrapper {
+        width: 93%;
     }
 
     .footer {
@@ -344,14 +538,14 @@
     }
 
     .logo-footer {
-        margin-top: 15px;
+        margin-top: 13px;
         margin-bottom: 30px;
     }
 
     .social {
         position: absolute;
-        right: 0;
-        top: 15px;
+        right: -16px;
+        top: 12px;
     }
 
     .facebook-text {
@@ -391,7 +585,10 @@
     }
 
     .footer .nav {
-        left: 0;
+        display: block;
+        left: -11px;
+        bottom: -14px;
+        width: 55%;
     }
 
     .input-container {
@@ -400,6 +597,15 @@
 
     .footer-block2 {
         justify-content: end;
+    }
+
+    .desing {
+        bottom: -25px;
+        right: -1px;
+    }
+
+    .desing p {
+        margin-bottom: 8px;
     }
 
 }
@@ -411,32 +617,43 @@
     }
 
     .hidden-menu {
-        top: 18px;
-        right: 20px;
+        top: 12px;
+        right: 9px;
+    }
+
+    .logo-list h1 {
+        width: 50px;
+        line-height: 21%;
+        top: 10px;
     }
 
     .panda {
-        height: 187px;
-        margin-bottom: 60px;
+        height: 221px;
+        margin-bottom: 74px;
     }
 
     .panda img {
         width: 120px;
         height: 120px;
-        top: 62px;
+        top: 56px;
     }
 
     .panda h2 {
         font-size: 28px;
         width: 130px;
-        top: 68px;
+        top: 74px;
+        right: 2px;
     }
 
     .online {
         left: 0;
         right: 0;
-        top: 197px;
+        top: 239px;
         margin: 0 auto;
+    }
+
+    .wilderness-world .wrapper {
+        width: 94%;
     }
 
     .wilderness-world h2 {
@@ -456,12 +673,17 @@
     .flower-mob {
         display: block;
         position: absolute;
-        right: 0;
-        top: 0;
+        right: -9px;
+        top: -32px;
+    }
+
+    .wilderness-world p {
+        width: 100%;
+        line-height: 134%;
     }
 
     .wilderness-world h3 {
-        margin-top: 20px;
+        margin-top: 22px;
         margin-bottom: 10px;
     }
 
@@ -479,11 +701,19 @@
 
     .animals-card {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
+        grid-gap: 67px;
     }
 
     .aminals-block {
-        margin-bottom: 20px;
+        margin-bottom: 56px;
+    }
+
+    .animal-wrapper .hidden {
+        bottom: -14%;
+    }
+
+    .hidden p {
+        padding-bottom: 8px;
     }
 
     .favorite {
@@ -491,11 +721,15 @@
     }
 
     .palm {
-        width: 40px;
+        width: 48px;
     }
 
     .flower-2 {
         width: 85px;
+    }
+
+    .friend-block {
+        padding-top: 22px;
     }
 
     .friend-block h4 {
@@ -517,6 +751,8 @@
 
     .friend h2 {
         font-size: 24px;
+        padding-top: 18px;
+        margin-bottom: 11px;
     }
 
     .friend h3 {
@@ -530,7 +766,7 @@
     .frend-wrapper {
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: 18px;
     }
 
     .block-pay {
@@ -538,7 +774,7 @@
     }
 
     .pay-wrapper {
-        margin-bottom: 80px;
+        margin-bottom: 62px;
     }
 
     .arrow-wrapper {
@@ -556,7 +792,19 @@
     }
 
     .flower-3 {
-        width: 90px;
+        width: 69px;
+    }
+
+    .testimonials h2 {
+        margin-top: 29px;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .feedback {
+        margin-top: 14px;
+        margin-bottom: 60px;
+        width: 242px;
     }
 
     .footer .wrapper {
@@ -575,6 +823,7 @@
     .logo-list-1 {
         display: block;
         margin-bottom: 85px;
+        margin-top: 7px;
         position: relative;
     }
 
@@ -604,13 +853,13 @@
     .social {
         right: 0;
         left: 0;
-        top: 23%;
+        top: 24%;
         flex-direction: initial;
         justify-content: center;
     }
 
     .donate {
-        margin-bottom: 30px;
+        margin-bottom: 110px;
     }
 
     .desing {
@@ -620,6 +869,8 @@
     .footer .nav {
         display: block;
         width: 100%;
+        left: 2px;
+        bottom: -17px;
     }
 
     .facebook {
