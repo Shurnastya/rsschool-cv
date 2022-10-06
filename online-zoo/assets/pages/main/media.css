@@ -109,14 +109,17 @@
 
     .header .wrapper {
         justify-content: left;
+        width: 97%;
     }
 
     .logo-list h1 {
-        margin-right: 40px;
+        margin-right: 39px;
+        margin-left: 13px;
     }
 
     .header .figma {
-        margin-left: 225px;
+        margin-left: 227px;
+        letter-spacing: 0px;
     }
 
     .panda {
@@ -180,6 +183,17 @@
 
     .frend-wrapper {
         margin-bottom: 114px;
+    }
+
+    .palm {
+        display: none;
+    }
+
+    .palm2 {
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0;
     }
 
     .testimonials h2 {
@@ -264,6 +278,12 @@
 
     .header .logo-list a {
         font-size: 13px;
+    }
+
+    .nav-toggle ul {
+        position: relative;
+        top: 84px;
+        left: 4px;
     }
 
     .bamboo {
@@ -397,13 +417,13 @@
     .arrow-left {
         position: absolute;
         left: 38%;
-        top: 35%;
+        top: 35.5%;
     }
 
     .arrow-right {
         position: absolute;
         right: 38%;
-        top: 35%;
+        top: 35.5%;
     }
 
     .animal-sloth {
@@ -431,7 +451,12 @@
     }
 
     .palm {
-        width: 130px;
+        display: block;
+        width: 128px;
+    }
+
+    .palm2 {
+        display: none;
     }
 
     .friend {
@@ -462,6 +487,7 @@
     .frend-wrapper {
         justify-content: space-evenly;
         margin-bottom: 87px;
+        margin-right: 11px;
     }
 
     .friend-block {
@@ -510,7 +536,7 @@
 
     .testimonials-block {
         width: 100%;
-        height: 110.5px;
+        height: 108.5px;
         margin-bottom: 15px;
     }
 
@@ -525,8 +551,8 @@
     }
 
     .flower-3 {
-        bottom: -8%;
-        width: 110px;
+        bottom: -10%;
+        width: 117px;
     }
 
     .footer .wrapper {
@@ -619,6 +645,11 @@
     .hidden-menu {
         top: 12px;
         right: 9px;
+    }
+
+    .logo-list {
+        position: absolute;
+        left: -3px;
     }
 
     .logo-list h1 {
@@ -721,11 +752,25 @@
     }
 
     .palm {
-        width: 48px;
+       display: none;
+    }
+
+    .palm2 {
+        width: 65px;
+        display: block;
+        left: -8px;
     }
 
     .flower-2 {
-        width: 85px;
+        display: none;
+    }
+
+    .flower-2-mob {
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: 0;
+        width: 59px;
     }
 
     .friend-block {
@@ -767,6 +812,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 18px;
+        margin-right: 0px;
     }
 
     .block-pay {
@@ -792,7 +838,8 @@
     }
 
     .flower-3 {
-        width: 69px;
+        width: 64px;
+        bottom: -7%;
     }
 
     .testimonials h2 {
@@ -802,7 +849,7 @@
     }
 
     .feedback {
-        margin-top: 14px;
+        margin-top: 19px;
         margin-bottom: 60px;
         width: 242px;
     }
