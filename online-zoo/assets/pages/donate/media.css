@@ -24,14 +24,17 @@
 
     .header .wrapper {
         justify-content: left;
+        width: 97%;
     }
 
     .logo-list h1 {
-        margin-right: 40px;
+        margin-right: 39px;
+        margin-left: 13px;
     }
 
     .header .figma {
-        margin-left: 225px;
+        margin-left: 227px;
+        letter-spacing: 0px;
     }
 
     .friend-block h2 {
@@ -104,7 +107,8 @@
         margin-bottom: 50px;
     }
 
-    .input-container {
+    .input-container2 {
+        position: relative;
         right: 32px;
     }
 
@@ -131,7 +135,7 @@
     .desing {
         position: absolute;
         bottom: 0;
-        right: -32px;
+        right: 6px;
     }
 
     .desing p {
@@ -162,6 +166,11 @@
         font-size: 13px;
     }
 
+    .nav-toggle ul {
+        position: relative;
+        top: 84px;
+        left: 4px;
+    }
 
     .header .wrapper {
         justify-content: flex-start;
@@ -281,6 +290,11 @@
         margin-bottom: -52px;
     }
 
+    .dollar {
+        top: 13px;
+        right: 4%;
+    }
+
     .friend-block p {
         padding-bottom: 45px;
     }
@@ -291,10 +305,6 @@
 
     .footer .wrapper {
         width: 93%;
-    }
-
-    .footer {
-        padding-bottom: 15px;
     }
 
     .logo-footer {
@@ -384,6 +394,7 @@
         width: 50px;
         line-height: 21%;
         top: 10px;
+        left: -10px;
     }
 
     .panda {
