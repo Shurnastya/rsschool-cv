@@ -464,10 +464,18 @@ html, body {
     bottom: 0;
 }
 
+.palm2 {
+    display: none;
+}
+
 .flower-2 {
     position: absolute;
     right: 0px;
     bottom: 0;
+}
+
+.flower-2-mob {
+    display: none;
 }
 
 .hidden h2 {
