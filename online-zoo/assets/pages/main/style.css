@@ -101,6 +101,10 @@ html, body {
     color: #FE9013;
 }
 
+.nav a:hover {
+    color: #FE9013;
+}
+
 .nav .active {
     color: #FE9013;
 }
@@ -357,6 +361,7 @@ html, body {
     border: none;
     transition: 0.3s;
     position: relative;
+    top: 30px;
     left: -20px;
     cursor: pointer;
 }
@@ -369,6 +374,7 @@ html, body {
     border: none;
     transition: 0.3s;
     position: relative;
+    top: 30px;
     right: -20px;
     cursor: pointer;
 }
@@ -413,7 +419,7 @@ html, body {
 .animals-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px 30px;
+    grid-gap: 95px 30px;
 }
 
 .block-img {
@@ -888,7 +894,7 @@ html, body {
     width: 45%;
 }
 
-.footer a:hover {
+.footer .nav a:hover {
     color: #FE9013;
 }
 

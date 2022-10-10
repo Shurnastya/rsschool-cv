@@ -270,6 +270,7 @@
     .logo-list h1 {
         width: 54px;
         line-height: 30%;
+        border: none;
     }
 
     .logo-list {
@@ -282,13 +283,13 @@
 
     .nav-toggle ul {
         position: relative;
-        top: 84px;
-        left: 4px;
+        top: 95px;
+        left: 12px;
     }
 
     .bamboo {
-        bottom: -4px;
-        left: 14%;
+        bottom: -5px;
+        left: 9%;
     }
 
     .panda img {
