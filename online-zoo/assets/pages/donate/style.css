@@ -101,6 +101,10 @@ html, body {
     color: white;
 }
 
+.nav a:hover {
+    color: #FE9013;
+}
+
 .nav .active {
     color: #FE9013;
 }
@@ -398,8 +402,8 @@ html, body {
     height: 10px;
     background-color: #FFEE2E;
     border-radius: 50%;
-    position: absolute;
-    top: -6px;
+    position: relative;
+    top: -21px;
     right: 50%;
     left: 50%;
     cursor: pointer;
@@ -408,21 +412,25 @@ html, body {
 .price-label::after {
     content: "";
     display: block;
-    width: 23px;
-    height: 23px;
-    border: 1px solid #F9804B;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../icons/roller_icon.svg);
+    background-repeat: no-repeat;
     opacity: 1;
-    border-radius: 50%;
     position: absolute;
-    top: -13px;
+    top: -16px;
     right: 0;
-    left: 43.5%;
+    left: 36.5%;
     cursor: pointer;
     opacity: 0;
 }
 
 .price-input:checked + .price-label::after {
     opacity: 1;
+}
+
+.price-input:checked + .price-label {
+    color: #F9804B;
 }
 
 .input-number {
@@ -580,7 +588,7 @@ html, body {
     width: 45%;
 }
 
-.footer a:hover {
+.footer .nav a:hover {
     color: #FE9013;
 }
 

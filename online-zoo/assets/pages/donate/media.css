@@ -156,10 +156,16 @@
     .logo-list h1 {
         width: 54px;
         line-height: 30%;
+        border: none;
     }
 
     .logo-list {
         position: absolute;
+    }
+
+    .bamboo {
+        bottom: -5px;
+        left: 9%;
     }
 
     .header .logo-list a {
@@ -168,8 +174,8 @@
 
     .nav-toggle ul {
         position: relative;
-        top: 84px;
-        left: 4px;
+        top: 95px;
+        left: 12px;
     }
 
     .header .wrapper {
@@ -262,7 +268,7 @@
     }
 
     .price-label::after {
-        left: 45.5%;
+        left: 42%;
     }
 
     .slider {
@@ -510,7 +516,13 @@
     .price-label::before {
         width: 5px;
         height: 5px;
-        top: -27px;
+        top: -15px;
+    }
+
+    .price-label::after {
+        left: 43%;
+        background-size: 20px 20px;
+        top: -32px;
     }
 
     .price label {
@@ -607,7 +619,10 @@
 @media (max-width: 340px) {
 
     .price-label::after {
-        left: 39.5%;
+        left: 37.5%;
     }
 
+    .price-label::before {
+        top: -14px;
+    }
 }
