@@ -12,3 +12,10 @@ function anchor(){
         });
     };
 };
+
+
+let input = document.querySelector(".input-number");
+
+input.oninput = function () {
+    this.value = this.value.substr(0, 4);
+};
