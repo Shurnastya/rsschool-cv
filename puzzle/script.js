@@ -80,7 +80,6 @@ class Box {
     return grid;
   };
 
-  
   class State {
     constructor(grid, move, time, status) {
       this.grid = grid;
