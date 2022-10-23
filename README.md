@@ -1,1 +1,1 @@
-# shurnastya-JavaScript/Front-end 2022Q3
+# shurnastya-JSFE2022Q3
