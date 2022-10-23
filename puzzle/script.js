@@ -79,6 +79,7 @@ class Box {
     if (isSolved(grid)) return getRandomGrid();
     return grid;
   };
+
   
   class State {
     constructor(grid, move, time, status) {
