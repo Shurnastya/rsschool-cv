@@ -185,7 +185,7 @@ class Box {
       document.getElementById("time").textContent = `Time: ${time} second`;
   
       if (status === "won") {
-        document.querySelector(".message").textContent = `Hooray! You solved the puzzle in ${time} and ${move} moves!`;
+        document.querySelector(".message").textContent = `Hooray! You solved the puzzle in ${time} second and ${move} moves!`;
       } else {
         document.querySelector(".message").textContent = "";
       }
